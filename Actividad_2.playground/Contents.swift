@@ -1,6 +1,8 @@
 import UIKit
 
-//Para condicionales y ciclos, declara la variable datos con los valores [3,6,9,2,4,1], realiza el recorrido de la variable datos con la instrucción for y encuentra los valores menores a 5.
+/*Para condicionales y ciclos, declara la variable datos con los
+valores [3,6,9,2,4,1], realiza el recorrido de la variable datos
+con la instrucción for y encuentra los valores menores a 5.*/
 var valores: [Int] = [3,6,9,2,4,1]
 
 for valor in valores {
@@ -9,7 +11,11 @@ for valor in valores {
     }
 }
 
-//Para funciones, crea la función suma que reciba dos parámetros de tipo entero regresando la suma de ambos números y crea la función potencia que reciba dos parámetros de tipo entero, el primer parámetro para el número base y el segundo la potencia a elevar, regresando el resultado de la potencia.
+/*Para funciones, crea la función suma que reciba dos parámetros
+ de tipo entero regresando la suma de ambos números y crea la
+ función potencia que reciba dos parámetros de tipo entero, el
+ primer parámetro para el número base y el segundo la potencia
+ a elevar, regresando el resultado de la potencia.*/
 var numero1: Int = 2
 var numero2: Int = 3
 
@@ -23,7 +29,11 @@ func potencia(num1: Int, num2: Int) -> Int {
 }
 print("Potencia \(potencia(num1: numero1, num2: numero2))")
 
-//Para enumeraciones, crea la enumeración meses para definir tipos de datos basados en los meses del año y crea la función numeroMes que reciba el tipo de dato meses y regrese el número del mes correspondiente, Para regresar el número de mes correspondiente utiliza switch.
+/*Para enumeraciones, crea la enumeración meses para definir tipos
+ de datos basados en los meses del año y crea la función numeroMes
+ que reciba el tipo de dato meses y regrese el número del mes
+ correspondiente, Para regresar el número de mes correspondiente
+ utiliza switch.*/
 enum meses {
     case enero
     case febrero
